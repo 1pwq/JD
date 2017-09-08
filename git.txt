@@ -1,0 +1,32 @@
+集中式（svn/cvs）:必须要联网，从服务器上获取版本信息
+分布式（git）:每个人的电脑都相当于一台服务器，即便服务器中断，代码也会在我们的本地保留
+
+git --version   回车（检验gitbash是否安装成功）
+
+cd 文件的路径 //切换到某个文件夹  master代表主分支
+
+git clone url
+
+git status //查看当前的状态
+
+git add 1.txt //将修改的文件添加到暂存区（ . 或者 *  代表所有）
+
+git commit -m '提交的注释'
+
+git push origin master  //提交到主分支
+
+
+git branch  //查看分支
+
+git branch name  //创建新的分支
+git checkout name  //切换分支
+上面两句合并一句  git checkout -b name //创建并切换分支
+
+git branch -d name  ///删除某一个分支
+
+git log //查看每次提交的版本   （退出：ctrl+z）
+
+
+[credential]
+
+helper = store
