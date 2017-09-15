@@ -43,20 +43,22 @@ a{
 	background:url(../img/background.jpg) no-repeat;
 }
 .center .login{
+	position:relative;
 	width:306px;
+	height:322px;
 	background:white;
 	float:right;
 	margin-top:40px;
 	padding:18px;
 	margin-right:10px;
-
 }
-.center .login a{
+.center .login b{
+	font-weight:normal;
 	font-size:17px;
 	padding:40px;
 	color:#666666;
 }
-.login a:hover{
+.login b:hover{
 	color:#e4393c;
 	font-weight:bold;
 }
@@ -69,6 +71,7 @@ a{
 	margin-bottom:20px;
 	padding:10px;
 	font-size:15px;
+	color:gray;
 	outline:none;
 }
 .inp span{
@@ -102,7 +105,7 @@ a{
 .login .button a{
 	line-height:40px;
 	color:#ffffe0;
-	margin:0 80px;
+	margin:0 120px;
 	font-size:21px;
 }
 .login .button a:hover{

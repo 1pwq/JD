@@ -18,13 +18,13 @@
 	<div class="content">
 		<div class="center">
 			<div>
-				用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名<input type="text" name="" placeholder="您的账户名或登录名">
+				用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名<input type="text" name="" placeholder="您的账户名或登录名" id="inp">
 			</div>
 			<div>
-				设&nbsp;置&nbsp;密&nbsp;码<input type="text" name="" placeholder="建议使用两种字符组合">
+				设&nbsp;置&nbsp;密&nbsp;码<input type="text" name="" placeholder="建议使用两种字符组合" id="pwd">
 			</div>
 			<div>
-				确&nbsp;认&nbsp;密&nbsp;码<input type="text" name="" placeholder="请再次输入密码">
+				确&nbsp;认&nbsp;密&nbsp;码<input type="text" name="" placeholder="请再次输入密码" id="qpwd">
 			</div>
 			<div class="phone">
 				<select>
@@ -36,17 +36,17 @@
 					<option>巴西&nbsp;&nbsp;0055</option>
 					<option>德国&nbsp;&nbsp;0049</option>
 				</select>
-				<input type="text" name="" placeholder="建议使用常用手机">
+				<input type="text" name="" placeholder="建议使用常用手机" id="phone">
 			</div>
 			<a href="">邮箱验证</a>
 			<div>
 				验&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码
-				<input type="text" name="" placeholder="请输入验证码">
-				<img src="img/yzm.jpg">
+				<input type="text" name="" placeholder="请输入验证码" id="inpYzm">
+				<span id="yzm"></span>
 			</div>
 			<div class="yzm">
 				手机验证码
-				<input type="text" name="" placeholder="请输入手机验证码">
+				<input type="text" name="" placeholder="请输入手机验证码" id="phoneYzm">
 				<span>获取验证码</span>
 			</div>
 			<input type="checkbox" name="" checked>
@@ -55,7 +55,7 @@
 				<a href="" class="xy">《京东用户注册协议》</a>
 				<a href="" class="ys">《隐私政策》</a>
 			</span>
-			<div class="register">立即注册</div>
+			<div class="register" id="btn">立即注册</div>
 		</div>
 		<p class="line"></p>		
 		<div class="right">
@@ -80,3 +80,4 @@
 	</footer>
 </body>
 </html>
+<script src="js/register.js"></script>
